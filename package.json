@@ -25,6 +25,13 @@
             "command": "llm-integration-plugin.askOpenAI",
             "title": "Ask OpenAI"
         }
+    ],
+    "keybindings": [
+        {
+            "command": "llm-integration-plugin.askOpenAI",
+            "key": "ctrl+shift+i",
+            "when": "editorTextFocus"
+        }
     ]
 },
   "scripts": {
